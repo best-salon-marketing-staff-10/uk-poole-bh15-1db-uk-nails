@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&ital@1&display=swap');
+
+
 /*
 */
 /*
@@ -57,7 +60,6 @@
   /*Chống copy nội dung trang, tải ảnh....
   */
     
-
   html{
     -youbkit-touch-callout: none; 
     -youbkit-user-select: none;   
@@ -65,8 +67,6 @@
     -ms-user-select: none;      
     user-select: none;   
   }
- 
-
     
   /*
   */
@@ -195,7 +195,7 @@
   /*.button-model-1 và .button-model-2 khác nhau về màu thôi
   */
   .button-model-1{
-    background-color: #FFF000;
+    background-color: #23d1ff;
     border-radius: 5px;
     color: #000000;
     text-align: center;
@@ -212,9 +212,9 @@
     vertical-align: middle;
   }
   .button-model-2{
-    background-color: #ffbb00;
+    background-color: #000000;
     border-radius: 5px;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     margin: auto;
     max-width: 300px;
@@ -233,45 +233,52 @@
 
   /*Các yếu tố chung cho màn hình đầu tiên
   */
+
   .first-screen-block{
     position: relative;
     line-height: 1.32;
   }
+
   .first-screen-block-anh{
     margin: auto;
     text-align: center;
     border-radius: 0px;
   }
+
   .first-screen-block-title{
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
-    font-weight: 500;
-    font-size: 35px;
-    -webkit-text-stroke-color: #FF0041;
-    -webkit-text-stroke-width: 1px;
+    font-weight: bold;
+    font-size: 34px;
+    font-family:  'Roboto', sans-serif ;
+    font-style: italic;
+    font-kerning: none;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 2px;
     color: #FFFFFF;
   }
 
   /*Các list dịch vụ mà ko hiển thị
   */
+
   .services-list-4,
   .services-list-6,
   .services-list-7,
-  .offers,
-  .customer-review{
+  .offers{
     display: none;
   }
+
   /*Các list dịch vụ hiển thị cần phải cách nhau 1 khoảng
   và phải có khoảng cách với bên dưới
   */
+
   .service-container{
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 50px;
   }
   
-
 /*
 3. Phần chế độ hiển thị cho: 
   Mobile
@@ -583,7 +590,7 @@
     }
     .top-bar-item-left,
     .top-bar-item-right{
-      background-color: #FFF000;
+      background-color: #23d1ff;
       border: none;
       color: #000000;
       font-weight: 500;
@@ -721,7 +728,7 @@
     /*nhan-manh-2.js
     */
     .nhan-manh-2-background{
-      background-color: #D3F1DF;
+      background-color: #dcf5ff;
       padding-top: 10px;
       padding-bottom: 15px;
       padding-left: 20px;
@@ -833,13 +840,16 @@
   */
     /* location.js
     */
+
     .location{
       padding-bottom: 30px;
       background-color: #FFFFFF;
     }
+
     .location-image{
       margin-bottom: 30px;
     }
+
     .location-title{
       text-align: center;
       margin-bottom: 20px;
@@ -848,6 +858,7 @@
       font-weight: 700;
       color: #000000;
     }
+
     .location-header{
       text-align: center;
       margin-bottom: 10px;
@@ -856,13 +867,16 @@
       font-weight: 700;
       color: #000000;
     }
+
     .phone-tiem{
-      color: #65D5BF;
+      color: #FF0000 ;
       font-weight: 700;
     }
+
     .location-text{
       margin-bottom: 30px;
     }
+
     .location-description{
       text-align: center;
       margin: 10px;
@@ -870,6 +884,7 @@
       font-size: 20px;
       font-family: Noto Sans;
     }
+
   /*Phần TimeSchedule Thời gian làm việc của tiệm
   */
     /*time-schedule.js
@@ -964,7 +979,7 @@
       margin-right: 10px; 
     }
     .customer-review-carousel-image{
-      max-width: 480px;
+      max-width: 100%;
     }
     .customer-review-description{
       text-align: center;
@@ -1013,7 +1028,7 @@
       margin-right: 10px;
     }
     .divider{
-      color: #EC5598;
+      color: #23d1ff;
     }
     .footer-navigation-item{
       color: #424A59;

@@ -25,7 +25,6 @@ export default function DesktopContent(){
     return(
         <>
             <div className="desktop-content">
-
                 <div className="first-screen-block">
                     <img className="first-screen-block-anh" alt={imageAlt.desktopCarouselImage1Alt} src={images.desktopCarouselImage1} />
                     <div className="first-screen-block-bottom">
@@ -33,69 +32,69 @@ export default function DesktopContent(){
                             {pageContent.carouselHeading}
                         </h1>
                         <div className="button">
-                            <Button1 />
+                            <Button1/>
                         </div>
-                    </div>              
+                    </div>
                 </div>
                 <div className="nhan-manh-1" id="d-section-1">
-                    <NhanManh1 />
+                    <NhanManh1/>
                 </div>
                 <div>
-                    <CustomerReview />
+                    <CustomerReview/>
                 </div>
                 <div className="homepage-desktop-dong-vien">
                     <div className="dong-vien-5">
-                        <NhanManh2 />
+                        <NhanManh2/>
                     </div>
                     <div className="dong-vien-6">
-                        <NhanManh3 />
+                        <NhanManh3/>
                     </div>
                     <div className="dong-vien-7">
-                        <NhanManh4 />
+                        <NhanManh4/>
                     </div>
                     <div className="location-time-schedule">
                         <div className="location">
-                            <Location />
+                            <Location/>
                         </div>
                         <div className="time-schedule">
-                            <TimeSchedule />
+                            <TimeSchedule/>
                         </div>
                     </div>
                 </div>
                 <div className="homepage-desktop-services">
                     <div className="services-list-1">
                         <div className="service-container">
-                            <Service1 />
+                            <Service1/>
                         </div>
                     </div>
                     <div className="services-list-2">
                         <div className="service-container">
-                            <Service2 />
+                            <Service2/>
                         </div>
                     </div>
                     <div className="services-list-3">
                         <div className="service-container">
-                            <Service3 />
+                            <Service3/>
                         </div>
                     </div>
                     <div className="services-list-4">
                         <div className="service-container">
-                            <Service4 />
+                            <Service4/>
                         </div>
                     </div>
                     <div className="services-list-5">
                         <div className="service-container">
-                            <Service5 />
+                            <Service5/>
                         </div>
                     </div>
                     <div className="services-list-6">
                         <div className="service-container">
-                            <Service6 />
+                            <Service6/>
                         </div>
                     </div>
                     <div className="services-list-7">
                         <div className="service-container">
-                            <Service7 />
+                            <Service7/>
                         </div>
                     </div>
                 </div>
