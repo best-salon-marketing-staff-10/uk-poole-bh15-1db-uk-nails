@@ -605,7 +605,7 @@ const pageContent = {
 
   // nhan-manh-4.js
   section7Heading: "SERVICES",
-  section7Description: "Experience the ultimate in nail care and pampering at our " + changedInfo.businessAddressLevel2 + " salon. Our expert technicians will help you choose the perfect nail polish color or acrylic extension to match your style and preferences, leaving you with gorgeous nails and a renewed sense of confidence.",
+  section7Description: "Experience the ultimate in nail care and pampering at our nail salon " + changedInfo.businessAddressLevel2 + ". Our expert technicians will help you choose the perfect nail polish color or acrylic extension to match your style and preferences, leaving you with gorgeous nails and a renewed sense of confidence.",
 
   // nhan-manh-5.js
   section8Heading: "UNWIND & INDULGE",
