@@ -658,8 +658,6 @@ const pageContent = {
   copyrightWebsiteLink: "https://bestsalonmarketing.com",
 }
 
-
-
 const button = {
   //Các nút trên website
   button1Content: "Learn more",
