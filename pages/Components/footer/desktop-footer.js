@@ -19,7 +19,7 @@ export default function DesktopFooter(){
             <Head>
             </Head>
             <div className="footer">
-                <Link href="/">
+                <Link legacyBehavior href="/">
                     <div className="footer-ten-tiem">
                         <LogoNav />
                     </div>
@@ -30,7 +30,7 @@ export default function DesktopFooter(){
                 <div className="footer-navigation">
                     <div className="footer-navigation-item-group-1">
                         <h2 className="footer-navigation-item">
-                            <Link href={menu.linkToMainMenu1}>
+                            <Link legacyBehavior href={menu.linkToMainMenu1}>
                                 <a className="footer-navigation-item">
                                     {menu.mainMenu1}
                                 </a>
@@ -39,7 +39,7 @@ export default function DesktopFooter(){
                     
                         <div className="footer-navigation-item">
                             <h2 className="footer-navigation-item-services">
-                                <Link href={menu.linkToMainMenu4}>
+                                <Link legacyBehavior href={menu.linkToMainMenu4}>
                                     <a className="footer-navigation-item">
                                         {menu.mainMenu4}
                                     </a>
@@ -47,49 +47,49 @@ export default function DesktopFooter(){
                             </h2>
                             <div className="footer-navigation-item-detail-services">
                                 <h3 className="footer-navigation-item-detail-services">
-                                    <Link href={serviceCategory.desktopLinkToServiceCategory1}>
+                                    <Link legacyBehavior href={serviceCategory.desktopLinkToServiceCategory1}>
                                         <a className="services-list-1">
                                             {serviceCategory.serviceCategory1}
                                         </a>
                                     </Link>
                                 </h3>
                                 <h3 className="footer-navigation-item-detail-services">
-                                    <Link href={serviceCategory.desktopLinkToServiceCategory2}>
+                                    <Link legacyBehavior href={serviceCategory.desktopLinkToServiceCategory2}>
                                         <a className="services-list-2">
                                             {serviceCategory.serviceCategory2}
                                         </a>
                                     </Link>
                                 </h3>
                                 <h3 className="footer-navigation-item-detail-services">
-                                    <Link href={serviceCategory.desktopLinkToServiceCategory3}>
+                                    <Link legacyBehavior href={serviceCategory.desktopLinkToServiceCategory3}>
                                         <a className="services-list-3">
                                             {serviceCategory.serviceCategory3}
                                         </a>
                                     </Link>
                                 </h3>
                                 <h3 className="footer-navigation-item-detail-services">
-                                    <Link href={serviceCategory.desktopLinkToServiceCategory4}>
+                                    <Link legacyBehavior href={serviceCategory.desktopLinkToServiceCategory4}>
                                         <a className="services-list-4">
                                             {serviceCategory.serviceCategory4}
                                         </a>
                                     </Link>
                                 </h3>
                                 <h3 className="footer-navigation-item-detail-services">
-                                    <Link href={serviceCategory.desktopLinkToServiceCategory5}>
+                                    <Link legacyBehavior href={serviceCategory.desktopLinkToServiceCategory5}>
                                         <a className="services-list-5">
                                             {serviceCategory.serviceCategory5}
                                         </a>
                                     </Link>
                                 </h3>
                                 <h3 className="footer-navigation-item-detail-services">
-                                    <Link href={serviceCategory.desktopLinkToServiceCategory6}>
+                                    <Link legacyBehavior href={serviceCategory.desktopLinkToServiceCategory6}>
                                         <a className="services-list-6">
                                             {serviceCategory.serviceCategory6}
                                         </a>
                                     </Link>
                                 </h3>
                                 <h3 className="footer-navigation-item-detail-services">
-                                    <Link href={serviceCategory.desktopLinkToServiceCategory7}>
+                                    <Link legacyBehavior href={serviceCategory.desktopLinkToServiceCategory7}>
                                         <a className="services-list-7">
                                             {serviceCategory.serviceCategory7}
                                         </a>
@@ -100,21 +100,21 @@ export default function DesktopFooter(){
                     </div>
                     <div className="footer-navigation-item-group-2">
                         <h2 className="footer-navigation-item">
-                            <Link href={menu.linkToMainMenu3}>
+                            <Link legacyBehavior href={menu.linkToMainMenu3}>
                                 <a className="footer-navigation-item">
                                     {menu.mainMenu3}
                                 </a>
                             </Link>
                         </h2>
                         <h2 className="footer-navigation-item">
-                            <Link href={menu.linkToMainMenu2}>
+                            <Link legacyBehavior href={menu.linkToMainMenu2}>
                                 <a className="footer-navigation-item">
                                     {menu.mainMenu2}
                                 </a>
                             </Link>
                         </h2>
                         <h2 className="footer-navigation-item">
-                            <Link href={menu.linkToMainMenu5}>
+                            <Link legacyBehavior href={menu.linkToMainMenu5}>
                                 <a className="footer-navigation-item">
                                     {menu.mainMenu5}
                                 </a>
@@ -125,7 +125,7 @@ export default function DesktopFooter(){
                                 {menu.mainMenu6}
                             </h2>
                             <div className="footer-navigation-item-details">
-                                <Link href={processedInfo.callBusiness}>
+                                <Link legacyBehavior href={processedInfo.callBusiness}>
                                     <div className="footer-navigation-item-details-1">
                                         <div>
                                             <img className="footer-image" alt={imageAlt.footerImagePhoneIconAlt} src={images.footerImagePhoneIcon} />
@@ -137,7 +137,7 @@ export default function DesktopFooter(){
                                         </div>
                                     </div>
                                 </Link>  
-                                <Link href={changedInfo.linkToMap}>  
+                                <Link legacyBehavior href={changedInfo.linkToMap}>  
                                     <div className="footer-navigation-item-details-2">
                                         <div>
                                             <img className="footer-image" alt={imageAlt.footerImageMapPointerIconAlt}  src={images.footerImageMapPointerIcon} />
@@ -157,7 +157,7 @@ export default function DesktopFooter(){
                     <iframe src={changedInfo.iframeMapLink} width="1920" height="500" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div className="footer-copyright">
-                    <Link href={pageContent.copyrightWebsiteLink}>
+                    <Link legacyBehavior href={pageContent.copyrightWebsiteLink}>
                         <a className="footer-copyright" rel="dofollow">
                             © Copyright and Powered by Best Salon Marketing
                         </a>

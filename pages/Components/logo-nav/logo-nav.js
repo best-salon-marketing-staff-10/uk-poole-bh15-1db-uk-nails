@@ -5,7 +5,7 @@ export default function LogoNav(){
 
     return(
         <>
-            <Link href="/">
+            <Link legacyBehavior href="/">
                 <div className="logo-container">
                     <div className="logo">
                         <img className="logo"src={changedInfo.businessLogo} />

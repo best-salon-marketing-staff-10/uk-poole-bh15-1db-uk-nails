@@ -32,7 +32,7 @@ export default function TabletNavBar(){
                             >
                             <Offcanvas.Header closeButton>
                                 <Offcanvas.Title id="offcanvasNavbarLabel">
-                                    <Link href="/">
+                                    <Link legacyBehavior href="/">
                                         <LogoNav />
                                     </Link>
                                 </Offcanvas.Title>
@@ -40,14 +40,14 @@ export default function TabletNavBar(){
                             <Offcanvas.Body>
                                 <Nav className="justify-content-end flex-grow-1 pe-3">
                                     <div className="nav-bar-main-category">
-                                        <Link href={menu.linkToMainMenu1}>
+                                        <Link legacyBehavior href={menu.linkToMainMenu1}>
                                             <a className="nav-bar-link-main-menu">
                                                 {menu.mainMenu1}
                                             </a>
                                         </Link>
                                     </div>
                                     <div className="nav-bar-main-category">
-                                        <Link href={menu.linkToMainMenu4}>
+                                        <Link legacyBehavior href={menu.linkToMainMenu4}>
                                             <a className="nav-bar-link-main-menu">
                                                 {menu.mainMenu4}
                                             </a>
@@ -55,7 +55,7 @@ export default function TabletNavBar(){
                                         <div className="nav-bar-services-sub-category">
                                         <div className="nav-bar-services-sub-category-details">
                                                 <div className="services-list-1">
-                                                    <Link href={serviceCategory.tabletLinkToServiceCategory1}>
+                                                    <Link legacyBehavior href={serviceCategory.tabletLinkToServiceCategory1}>
                                                         <a className="nav-bar-link-service-category"> 
                                                             {serviceCategory.serviceCategory1}
                                                         </a>
@@ -64,7 +64,7 @@ export default function TabletNavBar(){
                                             </div>
                                             <div className="nav-bar-services-sub-category-details">
                                                 <div className="services-list-2">
-                                                    <Link href={serviceCategory.tabletLinkToServiceCategory2}>
+                                                    <Link legacyBehavior href={serviceCategory.tabletLinkToServiceCategory2}>
                                                         <a className="nav-bar-link-service-category">
                                                             {serviceCategory.serviceCategory2}
                                                         </a>
@@ -73,7 +73,7 @@ export default function TabletNavBar(){
                                             </div>    
                                             <div className="nav-bar-services-sub-category-details">
                                                 <div className="services-list-3">
-                                                    <Link href={serviceCategory.tabletLinkToServiceCategory3}>
+                                                    <Link legacyBehavior href={serviceCategory.tabletLinkToServiceCategory3}>
                                                         <a className="nav-bar-link-service-category">
                                                             {serviceCategory.serviceCategory3}
                                                         </a>
@@ -82,7 +82,7 @@ export default function TabletNavBar(){
                                             </div> 
                                             <div className="nav-bar-services-sub-category-details">
                                                 <div className="services-list-4">
-                                                    <Link href={serviceCategory.tabletLinkToServiceCategory4}>
+                                                    <Link legacyBehavior href={serviceCategory.tabletLinkToServiceCategory4}>
                                                         <a className="nav-bar-link-service-category">
                                                             {serviceCategory.serviceCategory4}
                                                         </a>
@@ -91,7 +91,7 @@ export default function TabletNavBar(){
                                             </div> 
                                             <div className="nav-bar-services-sub-category-details">
                                                 <div className="services-list-5">
-                                                    <Link href={serviceCategory.tabletLinkToServiceCategory5}>
+                                                    <Link legacyBehavior href={serviceCategory.tabletLinkToServiceCategory5}>
                                                         <a className="nav-bar-link-service-category">
                                                             {serviceCategory.serviceCategory5}
                                                         </a>
@@ -100,7 +100,7 @@ export default function TabletNavBar(){
                                             </div> 
                                             <div className="nav-bar-services-sub-category-details">
                                                 <div className="services-list-6">
-                                                    <Link href={serviceCategory.tabletLinkToServiceCategory6}>
+                                                    <Link legacyBehavior href={serviceCategory.tabletLinkToServiceCategory6}>
                                                         <a className="nav-bar-link-service-category">
                                                             {serviceCategory.serviceCategory6}
                                                         </a>
@@ -109,7 +109,7 @@ export default function TabletNavBar(){
                                             </div> 
                                             <div className="nav-bar-services-sub-category-details">
                                                 <div className="services-list-7">
-                                                    <Link href={serviceCategory.tabletLinkToServiceCategory7}>
+                                                    <Link legacyBehavior href={serviceCategory.tabletLinkToServiceCategory7}>
                                                         <a className="nav-bar-link-service-category">
                                                             {serviceCategory.serviceCategory7}
                                                         </a>
@@ -119,21 +119,21 @@ export default function TabletNavBar(){
                                         </div>
                                     </div>
                                     <div className="nav-bar-main-category">
-                                        <Link href={menu.linkToMainMenu3}>
+                                        <Link legacyBehavior href={menu.linkToMainMenu3}>
                                             <a className="nav-bar-link-main-menu">
                                                 {menu.mainMenu3}
                                             </a>
                                         </Link>
                                     </div>
                                     <div className="nav-bar-main-category">
-                                        <Link href={menu.linkToMainMenu2}>
+                                        <Link legacyBehavior href={menu.linkToMainMenu2}>
                                             <a className="nav-bar-link-main-menu">
                                                 {menu.mainMenu2}
                                             </a>
                                         </Link>
                                     </div>
                                     <div className="nav-bar-main-category">
-                                        <Link href={menu.linkToMainMenu5}>
+                                        <Link legacyBehavior href={menu.linkToMainMenu5}>
                                             <a className="nav-bar-link-main-menu">
                                                 {menu.mainMenu5}
                                             </a>

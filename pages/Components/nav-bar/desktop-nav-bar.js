@@ -31,7 +31,7 @@ export default function DesktopNavBar(){
                             >
                             <Offcanvas.Header closeButton>
                                 <Offcanvas.Title id="offcanvasNavbarLabel">
-                                    <Link href="/">
+                                    <Link legacyBehavior href="/">
                                         <LogoNav />
                                     </Link>
                                 </Offcanvas.Title>
@@ -39,7 +39,7 @@ export default function DesktopNavBar(){
                             <Offcanvas.Body>
                                 <Nav className="justify-content-end flex-grow-1 pe-3">
                                     <h2 className="nav-bar-main-category">
-                                        <Link href={menu.linkToMainMenu1}>
+                                        <Link legacyBehavior href={menu.linkToMainMenu1}>
                                             <a className="nav-bar-link-main-menu">
                                                 {menu.mainMenu1}
                                             </a>
@@ -47,7 +47,7 @@ export default function DesktopNavBar(){
                                     </h2>
                                     <div className="nav-bar-main-category">
                                         <h2>
-                                            <Link href={menu.linkToMainMenu4}>
+                                            <Link legacyBehavior href={menu.linkToMainMenu4}>
                                                 <a className="nav-bar-link-main-menu">
                                                     {menu.mainMenu4}
                                                 </a>
@@ -56,7 +56,7 @@ export default function DesktopNavBar(){
                                         <div className="nav-bar-services-sub-category">
                                             <div className="nav-bar-services-sub-category-details">
                                                 <h3 className="services-list-1">
-                                                    <Link href={serviceCategory.desktopLinkToServiceCategory1}>
+                                                    <Link legacyBehavior href={serviceCategory.desktopLinkToServiceCategory1}>
                                                         <a className="nav-bar-link-service-category"> 
                                                             {serviceCategory.serviceCategory1}
                                                         </a>
@@ -65,7 +65,7 @@ export default function DesktopNavBar(){
                                             </div>
                                             <div className="nav-bar-services-sub-category-details">
                                                 <h3 className="services-list-2">
-                                                    <Link href={serviceCategory.desktopLinkToServiceCategory2}>
+                                                    <Link legacyBehavior href={serviceCategory.desktopLinkToServiceCategory2}>
                                                         <a className="nav-bar-link-service-category">
                                                             {serviceCategory.serviceCategory2}
                                                         </a>
@@ -74,7 +74,7 @@ export default function DesktopNavBar(){
                                             </div>    
                                             <div className="nav-bar-services-sub-category-details">
                                                 <h3 className="services-list-3">
-                                                    <Link href={serviceCategory.desktopLinkToServiceCategory3}>
+                                                    <Link legacyBehavior href={serviceCategory.desktopLinkToServiceCategory3}>
                                                         <a className="nav-bar-link-service-category">
                                                             {serviceCategory.serviceCategory3}
                                                         </a>
@@ -83,7 +83,7 @@ export default function DesktopNavBar(){
                                             </div> 
                                             <div className="nav-bar-services-sub-category-details">
                                                 <h3 className="services-list-4">
-                                                    <Link href={serviceCategory.desktopLinkToServiceCategory4}>
+                                                    <Link legacyBehavior href={serviceCategory.desktopLinkToServiceCategory4}>
                                                         <a className="nav-bar-link-service-category">
                                                             {serviceCategory.serviceCategory4}
                                                         </a>
@@ -92,7 +92,7 @@ export default function DesktopNavBar(){
                                             </div> 
                                             <div className="nav-bar-services-sub-category-details">
                                                 <h3 className="services-list-5">
-                                                    <Link href={serviceCategory.desktopLinkToServiceCategory5}>
+                                                    <Link legacyBehavior href={serviceCategory.desktopLinkToServiceCategory5}>
                                                         <a className="nav-bar-link-service-category">
                                                             {serviceCategory.serviceCategory5}
                                                         </a>
@@ -101,7 +101,7 @@ export default function DesktopNavBar(){
                                             </div> 
                                             <div className="nav-bar-services-sub-category-details">
                                                 <h3 className="services-list-6">
-                                                    <Link href={serviceCategory.desktopLinkToServiceCategory6}>
+                                                    <Link legacyBehavior href={serviceCategory.desktopLinkToServiceCategory6}>
                                                         <a className="nav-bar-link-service-category">
                                                             {serviceCategory.serviceCategory6}
                                                         </a>
@@ -110,7 +110,7 @@ export default function DesktopNavBar(){
                                             </div> 
                                             <div className="nav-bar-services-sub-category-details">
                                                 <h3 className="services-list-7">
-                                                    <Link href={serviceCategory.desktopLinkToServiceCategory7}>
+                                                    <Link legacyBehavior href={serviceCategory.desktopLinkToServiceCategory7}>
                                                         <a className="nav-bar-link-service-category">
                                                             {serviceCategory.serviceCategory7}
                                                         </a>
@@ -120,21 +120,21 @@ export default function DesktopNavBar(){
                                         </div>
                                     </div>
                                     <h2 className="nav-bar-main-category">
-                                        <Link href={menu.linkToMainMenu3}>
+                                        <Link legacyBehavior href={menu.linkToMainMenu3}>
                                             <a className="nav-bar-link-main-menu">
                                                 {menu.mainMenu3}
                                             </a>
                                         </Link>
                                     </h2>
                                     <h2 className="nav-bar-main-category">
-                                        <Link href={menu.linkToMainMenu2}>
+                                        <Link legacyBehavior href={menu.linkToMainMenu2}>
                                             <a className="nav-bar-link-main-menu">
                                                 {menu.mainMenu2}
                                             </a>
                                         </Link>
                                     </h2>
                                     <h2 className="nav-bar-main-category">
-                                        <Link href={menu.linkToMainMenu5}>
+                                        <Link legacyBehavior href={menu.linkToMainMenu5}>
                                             <a className="nav-bar-link-main-menu">
                                                 {menu.mainMenu5}
                                             </a>

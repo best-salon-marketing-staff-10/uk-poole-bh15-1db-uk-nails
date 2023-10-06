@@ -12,7 +12,7 @@ export default function MobileBottomNavBar(){
             <div className="mobile-bottom-nav-bar-section-bottom-nav-bar">
                 <Navbar expand={false} bg="white" variant="d" fixed="bottom">
                     <div className="mobile-bottom-nav-bar-section">
-                        <Link href={images.BottomNavButton1LinkTo}>
+                        <Link legacyBehavior href={images.BottomNavButton1LinkTo}>
                             <a className="mobile-bottom-nav-bar-link-a">
                                 <div className="mobile-bottom-nav-bar-home">
                                     <div>
@@ -24,7 +24,7 @@ export default function MobileBottomNavBar(){
                                 </div>
                             </a>
                         </Link>
-                        <Link href={images.BottomNavButton2LinkTo}>
+                        <Link legacyBehavior href={images.BottomNavButton2LinkTo}>
                             <a className="mobile-bottom-nav-bar-link-a">
                                 <div className="mobile-bottom-nav-bar-services">
                                     <div>
@@ -36,7 +36,7 @@ export default function MobileBottomNavBar(){
                                 </div>
                             </a>
                         </Link>
-                        <Link href={menu.linkToMainMenu3}>
+                        <Link legacyBehavior href={menu.linkToMainMenu3}>
                             <a className="mobile-bottom-nav-bar-link-a">
                                 <div className="mobile-bottom-nav-bar-contact-us">
                                     <div>

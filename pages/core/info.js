@@ -202,6 +202,7 @@ const seoInfo = {
 
 const seoKeyword = {
   seoKeyword1: seoInfo.keyword1 + " in " + seoInfo.localKeyword1,
+  seoKeyword15: seoInfo.keyword1 + " " + seoInfo.localKeyword1,
   seoKeyword2: seoInfo.keyword1 + " " + seoInfo.localKeyword2,
 
   seoKeyword3: seoInfo.keyword2 + " " + seoInfo.localKeyword1,
@@ -348,7 +349,7 @@ const processedInfo = {
 }
 
 const headerInput = {
-  headerTitle: "The best " + seoKeyword.seoKeyword1 + " - " + changedInfo.businessName,
+  headerTitle: "The best " + seoKeyword.seoKeyword15 + " - " + changedInfo.businessName,
   metaDescription: "Best " + seoKeyword.seoKeyword1 + ". " + "Friendly staff and excellent service. Treat yourself or enjoy with friends and family",
   relIcon: changedInfo.icon,
   relCanonical: changedInfo.businessWebsite,
@@ -596,11 +597,11 @@ const pageContent = {
 
   // nhan-manh-2.js
   section5Heading: "EXPERIENCE UNMATCHED NAIL CARE",
-  section5Description: "Step into our " + changedInfo.businessAddressLevel2 + " nail salon for a pampering nail care experience like no other. Our team of skilled technicians at " + changedInfo.businessName + " will help you select the best nail polish and acrylic options to meet your needs and preferences. 😊💅",
+  section5Description: "Step into our " + seoKeyword.seoKeyword15 + " for a pampering nail care experience like no other. Our team of skilled technicians at " + changedInfo.businessName + " will help you select the best nail polish and acrylic options to meet your needs and preferences. 😊💅",
 
   // nhan-manh-3.js
   section6Heading: "OUR MISSION",
-  section6Description: "Our " + changedInfo.businessAddressLevel2 + " nail salon is more than just a place to get your nails done - it's a place to unwind and recharge. Let us help you feel your best with our wide range of nail care services and personalized attention. 😊💅",
+  section6Description: "Our " + seoKeyword.seoKeyword15 + " is more than just a place to get your nails done - it's a place to unwind and recharge. Let us help you feel your best with our wide range of nail care services and personalized attention. 😊💅",
 
 
   // nhan-manh-4.js
@@ -611,7 +612,7 @@ const pageContent = {
   section8Heading: "UNWIND & INDULGE",
   section8Description: "Getting your nails done should be a fun and memorable experience, and at " + changedInfo.businessName + ", we couldn't agree more! We believe that our " + changedInfo.businessAddressLevel2 + " nail salon is the perfect place to unwind and treat yourself to some much-needed pampering. Our skilled technicians will help you select the best nail polish and acrylic options to meet your needs and preferences, and we offer a wide range of colors to suit every occasion.⁣",
 
-  carouselHeading: "Transform your nails and feel your best with our top-notch nail salon services in  " + changedInfo.businessAddressLevel2,
+  carouselHeading: "Transform your nails and feel your best with our top-notch nail salon " + changedInfo.businessAddressLevel2,
 
   customerReviewHeading: "WHAT OUR CUSTOMERS SAY",
   customerReviewDescription: "",
@@ -631,10 +632,10 @@ const pageContent = {
   contentOurPolicyDescription5: "The Gift Card and its balance are valid for a period of six months from the date of purchase. Your Gift Card will cease to be valid six months from the date of purchase and you will no longer be entitled to use it. ",
 
   //service-1.js
-  serviceCategory1Description: "Our " + changedInfo.businessAddressLevel2 + " nail salon offers a variety of nail extension services to enhance the length and beauty of your natural nails. We use high-quality products and skilled techniques to ensure a flawless and long-lasting result. Our experienced nail technicians can customize the length, shape, and color of your extensions to fit your unique style and preferences.",
+  serviceCategory1Description: "Our " + seoKeyword.seoKeyword15 + " offers a variety of nail extension services to enhance the length and beauty of your natural nails. We use high-quality products and skilled techniques to ensure a flawless and long-lasting result. Our experienced nail technicians can customize the length, shape, and color of your extensions to fit your unique style and preferences.",
     
   //service-2.js
-  serviceCategory2Description: "Our gel and shellac nails are perfect for those who want a longer-lasting alternative to regular polish, without the risk of chipping or peeling. Choose from a wide range of colors and designs to create the perfect look for any occasion. Come and visit us today to experience the best gel and shellac nails in " + changedInfo.businessAddressLevel2 + "!",
+  serviceCategory2Description: "Our gel nails and shellac nails are perfect for those who want a longer-lasting alternative to regular polish, without the risk of chipping or peeling. Choose from a wide range of colors and designs to create the perfect look for any occasion. Come and visit us today to experience the best gel nails and shellac nails in " + changedInfo.businessAddressLevel2 + "!",
   
   //service-3.js
   serviceCategory3Description: "Our manicure, pedicure, and nail shape and paint services are designed to make you feel pampered and beautiful. From perfectly shaped nails to vibrant colors, our experienced technicians are dedicated to delivering flawless results that exceed your expectations. We use only the highest quality products to ensure your nails remain strong, healthy, and beautiful. Treat yourself to an indulgent manicure or pedicure, and experience the luxurious relaxation and rejuvenation you deserve.",
@@ -643,7 +644,7 @@ const pageContent = {
   serviceCategory4Description: "When you’re treating yourself to a pampering appointment with us, you deserve good things! Our soothing & relaxing services have you feeling like a new person. Imagine feeling the heated water on your scalp while the shampoo scrubs away impurities. Imagine feeling more refreshed and relaxed than ever with our Indian head massage therapy.",
   
   //service-5.js
-  serviceCategory5Description: "Step into our " + changedInfo.businessAddressLevel2 + " nail salon and let our team of experts bring your nail design dreams to life. With high-quality products and meticulous attention to detail, we guarantee that your nails will be the envy of all your friends. Come visit us and let us transform your nails into a work of art.",
+  serviceCategory5Description: "Step into our " + seoKeyword.seoKeyword15 + " and let our team of experts bring your nail design dreams to life. With high-quality products and meticulous attention to detail, we guarantee that your nails will be the envy of all your friends. Come visit us and let us transform your nails into a work of art.",
   
   //service-6.js
   serviceCategory6Description: "We offer waxing service. Our estheticians use the latest techniques and products to ensure your hair removal experience is as smooth and gentle as possible.",

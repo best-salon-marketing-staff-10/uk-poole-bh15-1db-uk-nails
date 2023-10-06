@@ -5,21 +5,21 @@ export default function ButtonViewDetailsService7(){
     return(
         <>
             <div className="button-view-details-service-7-to-mobile">
-                <Link href={button.button12LinkToMobile}>
+                <Link legacyBehavior href={button.button12LinkToMobile}>
                     <div className="button-model-2">
                         {button.button12Content}
                     </div>
                 </Link>
             </div>
             <div className="button-view-details-service-7-to-tablet">
-                <Link href={button.button12LinkToTablet}>
+                <Link legacyBehavior href={button.button12LinkToTablet}>
                     <div className="button-model-2">
                         {button.button12Content}
                     </div>
                 </Link>
             </div>
             <div className="button-view-details-service-7-to-desktop">
-                <Link href={button.button12LinkToDesktop}>
+                <Link legacyBehavior href={button.button12LinkToDesktop}>
                     <div className="button-model-2">
                         {button.button12Content}
                     </div>

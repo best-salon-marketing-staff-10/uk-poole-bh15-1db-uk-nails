@@ -7,14 +7,14 @@ export default function MobileTopBar(){
     return(
         <>
             <div className="top-bar">
-                <Link href={processedInfo.callBusiness}>
+                <Link legacyBehavior href={processedInfo.callBusiness}>
                     <div className="top-bar-item-left">
                         CALL NOW
                     </div>
                 </Link>
                 <div className="top-bar-item-spacer">
                 </div>
-                <Link href={menu.linkToMainMenu3}>
+                <Link legacyBehavior href={menu.linkToMainMenu3}>
                     <div className="top-bar-item-right">
                         BOOK NOW
                     </div>

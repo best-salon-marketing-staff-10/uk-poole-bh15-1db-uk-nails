@@ -7,7 +7,7 @@ export default function Button4(){
     return(
         <>
             <div className="button-4">
-                <Link href={button.button4LinkTo}>
+                <Link legacyBehavior href={button.button4LinkTo}>
                     <div className="button-model-1">
                         {button.button4Content}
                     </div>

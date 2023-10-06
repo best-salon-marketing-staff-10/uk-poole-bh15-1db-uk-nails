@@ -31,7 +31,7 @@ export default function MobileNavBar(){
                             >
                             <Offcanvas.Header closeButton>
                                 <Offcanvas.Title id="offcanvasNavbarLabel">
-                                    <Link href="/">
+                                    <Link legacyBehavior href="/">
                                         <LogoNav />
                                     </Link>
                                 </Offcanvas.Title>
@@ -39,14 +39,14 @@ export default function MobileNavBar(){
                             <Offcanvas.Body>
                                 <Nav className="justify-content-end flex-grow-1 pe-3">
                                     <div className="nav-bar-main-category">
-                                        <Link href={menu.linkToMainMenu1}>
+                                        <Link legacyBehavior href={menu.linkToMainMenu1}>
                                             <a className="nav-bar-link-main-menu">
                                                 {menu.mainMenu1}
                                             </a>
                                         </Link>
                                     </div>
                                     <div className="nav-bar-main-category">
-                                        <Link href={menu.linkToMainMenu4}>
+                                        <Link legacyBehavior href={menu.linkToMainMenu4}>
                                             <a className="nav-bar-link-main-menu">
                                                 {menu.mainMenu4}
                                             </a>
@@ -54,7 +54,7 @@ export default function MobileNavBar(){
                                         <div className="nav-bar-services-sub-category">
                                         <div className="nav-bar-services-sub-category-details">
                                                 <div className="services-list-1">
-                                                    <Link href={serviceCategory.mobileLinkToServiceCategory1}>
+                                                    <Link legacyBehavior href={serviceCategory.mobileLinkToServiceCategory1}>
                                                         <a className="nav-bar-link-service-category"> 
                                                             {serviceCategory.serviceCategory1}
                                                         </a>
@@ -63,7 +63,7 @@ export default function MobileNavBar(){
                                             </div>
                                             <div className="nav-bar-services-sub-category-details">
                                                 <div className="services-list-2">
-                                                    <Link href={serviceCategory.mobileLinkToServiceCategory2}>
+                                                    <Link legacyBehavior href={serviceCategory.mobileLinkToServiceCategory2}>
                                                         <a className="nav-bar-link-service-category">
                                                             {serviceCategory.serviceCategory2}
                                                         </a>
@@ -72,7 +72,7 @@ export default function MobileNavBar(){
                                             </div>    
                                             <div className="nav-bar-services-sub-category-details">
                                                 <div className="services-list-3">
-                                                    <Link href={serviceCategory.mobileLinkToServiceCategory3}>
+                                                    <Link legacyBehavior href={serviceCategory.mobileLinkToServiceCategory3}>
                                                         <a className="nav-bar-link-service-category">
                                                             {serviceCategory.serviceCategory3}
                                                         </a>
@@ -81,7 +81,7 @@ export default function MobileNavBar(){
                                             </div> 
                                             <div className="nav-bar-services-sub-category-details">
                                                 <div className="services-list-4">
-                                                    <Link href={serviceCategory.mobileLinkToServiceCategory4}>
+                                                    <Link legacyBehavior href={serviceCategory.mobileLinkToServiceCategory4}>
                                                         <a className="nav-bar-link-service-category">
                                                             {serviceCategory.serviceCategory4}
                                                         </a>
@@ -90,7 +90,7 @@ export default function MobileNavBar(){
                                             </div> 
                                             <div className="nav-bar-services-sub-category-details">
                                                 <div className="services-list-5">
-                                                    <Link href={serviceCategory.mobileLinkToServiceCategory5}>
+                                                    <Link legacyBehavior href={serviceCategory.mobileLinkToServiceCategory5}>
                                                         <a className="nav-bar-link-service-category">
                                                             {serviceCategory.serviceCategory5}
                                                         </a>
@@ -99,7 +99,7 @@ export default function MobileNavBar(){
                                             </div> 
                                             <div className="nav-bar-services-sub-category-details">
                                                 <div className="services-list-6">
-                                                    <Link href={serviceCategory.mobileLinkToServiceCategory6}>
+                                                    <Link legacyBehavior href={serviceCategory.mobileLinkToServiceCategory6}>
                                                         <a className="nav-bar-link-service-category">
                                                             {serviceCategory.serviceCategory6}
                                                         </a>
@@ -108,7 +108,7 @@ export default function MobileNavBar(){
                                             </div> 
                                             <div className="nav-bar-services-sub-category-details">
                                                 <div className="services-list-7">
-                                                    <Link href={serviceCategory.mobileLinkToServiceCategory7}>
+                                                    <Link legacyBehavior href={serviceCategory.mobileLinkToServiceCategory7}>
                                                         <a className="nav-bar-link-service-category">
                                                             {serviceCategory.serviceCategory7}
                                                         </a>
@@ -118,21 +118,21 @@ export default function MobileNavBar(){
                                         </div>
                                     </div>
                                     <div className="nav-bar-main-category">
-                                        <Link href={menu.linkToMainMenu3}>
+                                        <Link legacyBehavior href={menu.linkToMainMenu3}>
                                             <a className="nav-bar-link-main-menu">
                                                 {menu.mainMenu3}
                                             </a>
                                         </Link>
                                     </div>
                                     <div className="nav-bar-main-category">
-                                        <Link href={menu.linkToMainMenu2}>
+                                        <Link legacyBehavior href={menu.linkToMainMenu2}>
                                             <a className="nav-bar-link-main-menu">
                                                 {menu.mainMenu2}
                                             </a>
                                         </Link>
                                     </div>
                                     <div className="nav-bar-main-category">
-                                        <Link href={menu.linkToMainMenu5}>
+                                        <Link legacyBehavior href={menu.linkToMainMenu5}>
                                             <a className="nav-bar-link-main-menu">
                                                 {menu.mainMenu5}
                                             </a>
