@@ -131,9 +131,9 @@ const changedInfo = {
   iframeMapLink: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d157.86884291777412!2d-3.5320457869639674!3d50.721766777876155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486da5f0d2d28c6f%3A0x1c735b97caf06780!2sTop%20Nails%20Exeter!5e0!3m2!1sen!2sus!4v1689822239913!5m2!1sen!2sus",
 
   // Các ảnh của tiệm
-  ogImage:"https://topnailsspa.web.app/images/desktop-nail-salon-happy-customer-1.jpg",
-  icon:"/icon.jpg",
-  businessLogo:"/logo.jpg",
+  ogImage:"https://topnailsexeter.web.app/images/desktop-nail-salon-happy-customer-1-2.jpg",
+  icon:"/icon-2.jpg",
+  businessLogo:"/logo-2.jpg",
 }
 
 const menu = {
@@ -357,10 +357,13 @@ const headerInput = {
   metaGeoPlaceName: changedInfo.businessAddressLevel2 + ", " + changedInfo.businessCountry,
   metaGeoRegion: changedInfo.businessGeoRegionCode + "-" + changedInfo.businessAddressDivisionCode,
   
+  metaOgSiteName: changedInfo.businessName,
+  metaOgLocale: "en_GB",
+
   metaOgTitle: processedInfo.slogan,
   metaOgImage: changedInfo.ogImage,
-  metaOgImageWidth: "1200",
-  metaOgImageHeight: "630",
+  metaOgImageWidth: "1920",
+  metaOgImageHeight: "1073",
 
   metaGoogleSiteVerification: changedInfo.metaGoogleSiteVerification,
 }
@@ -376,26 +379,26 @@ const schemaInput = {
   schemaPostalCode: changedInfo.businessPostCode,
   schemaAddressCountry: changedInfo.businessGeoRegionCode,
 
-  schemaImage1: "/images/nail-extension-1.jpg",
-  schemaImage2: "/images/nail-extension-2.jpg",
-  schemaImage3: "/images/nail-extension-3.jpg",
-  schemaImage4: "/images/nail-extension-4.jpg",
-  schemaImage5: "/images/nail-extension-5.jpg",
-  schemaImage6: "/images/gel-nails-shellac-nails-1.jpg",
-  schemaImage7: "/images/gel-nails-shellac-nails-2.jpg",
-  schemaImage8: "/images/gel-nails-shellac-nails-3.jpg",
-  schemaImage9: "/images/gel-nails-shellac-nails-4.jpg",
-  schemaImage10: "/images/gel-nails-shellac-nails-5.jpg",
-  schemaImage11: "/images/nail-design-1.jpg",
-  schemaImage12: "/images/nail-design-2.jpg",
-  schemaImage13: "/images/nail-design-3.jpg",
-  schemaImage14: "/images/nail-design-4.jpg",
-  schemaImage15: "/images/nail-design-5.jpg",
-  schemaImage16: "/images/pedicure-1.jpg",
-  schemaImage17: "/images/pedicure-2.jpg",
-  schemaImage18: "/images/pedicure-3.jpg",
-  schemaImage19: "/images/pedicure-4.jpg",
-  schemaImage20: "/images/pedicure-5.jpg",
+  schemaImage1: "/images/nail-extension-1-2.jpg",
+  schemaImage2: "/images/nail-extension-2-2.jpg",
+  schemaImage3: "/images/nail-extension-3-2.jpg",
+  schemaImage4: "/images/nail-extension-4-2.jpg",
+  schemaImage5: "/images/nail-extension-5-2.jpg",
+  schemaImage6: "/images/gel-nails-shellac-nails-1-2.jpg",
+  schemaImage7: "/images/gel-nails-shellac-nails-2-2.jpg",
+  schemaImage8: "/images/gel-nails-shellac-nails-3-2.jpg",
+  schemaImage9: "/images/gel-nails-shellac-nails-4-2.jpg",
+  schemaImage10: "/images/gel-nails-shellac-nails-5-2.jpg",
+  schemaImage11: "/images/nail-design-1-2.jpg",
+  schemaImage12: "/images/nail-design-2-2.jpg",
+  schemaImage13: "/images/nail-design-3-2.jpg",
+  schemaImage14: "/images/nail-design-4-2.jpg",
+  schemaImage15: "/images/nail-design-5-2.jpg",
+  schemaImage16: "/images/pedicure-1-2.jpg",
+  schemaImage17: "/images/pedicure-2-2.jpg",
+  schemaImage18: "/images/pedicure-3-2.jpg",
+  schemaImage19: "/images/pedicure-4-2.jpg",
+  schemaImage20: "/images/pedicure-5-2.jpg",
 
 
   schemaTelephone: changedInfo.businessPhoneNumber,
@@ -716,44 +719,44 @@ const button = {
 
 const images = {
   //Ảnh ở Homepage carousel
-  mobileCarouselImage1: "/images/mobile-nail-salon-happy-customer-1.jpg",
-  mobileCarouselImage2: "/images/mobile-nail-salon-happy-customer-2.jpg",
-  mobileCarouselImage3: "/images/mobile-nail-salon-happy-customer-3.jpg",
+  mobileCarouselImage1: "/images/mobile-nail-salon-happy-customer-1-2.jpg",
+  mobileCarouselImage2: "/images/mobile-nail-salon-happy-customer-2-2.jpg",
+  mobileCarouselImage3: "/images/mobile-nail-salon-happy-customer-3-2.jpg",
 
-  tabletCarouselImage1: "/images/tablet-nail-salon-happy-customer-1.jpg",
-  tabletCarouselImage2: "/images/tablet-nail-salon-happy-customer-2.jpg",
-  tabletCarouselImage3: "/images/tablet-nail-salon-happy-customer-3.jpg",
+  tabletCarouselImage1: "/images/tablet-nail-salon-happy-customer-1-2.jpg",
+  tabletCarouselImage2: "/images/tablet-nail-salon-happy-customer-2-2.jpg",
+  tabletCarouselImage3: "/images/tablet-nail-salon-happy-customer-3-2.jpg",
 
-  desktopCarouselImage1: "/images/desktop-nail-salon-happy-customer-1.jpg",
-  desktopCarouselImage2: "/images/desktop-nail-salon-happy-customer-2.jpg",
-  desktopCarouselImage3: "/images/desktop-nail-salon-happy-customer-3.jpg",
+  desktopCarouselImage1: "/images/desktop-nail-salon-happy-customer-1-2.jpg",
+  desktopCarouselImage2: "/images/desktop-nail-salon-happy-customer-2-2.jpg",
+  desktopCarouselImage3: "/images/desktop-nail-salon-happy-customer-3-2.jpg",
       //Ảnh ở Homepage khi vuốt xuống
-  section5Image1: "/images/nail-extension-1.jpg",
+  section5Image1: "/images/nail-extension-1-2.jpg",
 
-  section6Image1: "/images/nail-extension-2.jpg",
+  section6Image1: "/images/nail-extension-2-2.jpg",
 
-  section7Image1: "/images/nail-extension-3.jpg",
-  section7Image2: "/images/nail-extension-4.jpg",
+  section7Image1: "/images/nail-extension-3-2.jpg",
+  section7Image2: "/images/nail-extension-4-2.jpg",
 
-  LocationImage1: "/images/nail-extension-11.jpg",
+  LocationImage1: "/images/nail-extension-11-2.jpg",
 
-  serviceList1Image1: "/images/nail-extension-5.jpg",
-  serviceList1Image2: "/images/nail-extension-6.jpg",
-  serviceList1Image3: "/images/nail-extension-7.jpg",
-  serviceList1Image4: "/images/nail-extension-8.jpg",
-  serviceList1Image5: "/images/nail-extension-9.jpg",
+  serviceList1Image1: "/images/nail-extension-5-2.jpg",
+  serviceList1Image2: "/images/nail-extension-6-2.jpg",
+  serviceList1Image3: "/images/nail-extension-7-2.jpg",
+  serviceList1Image4: "/images/nail-extension-8-2.jpg",
+  serviceList1Image5: "/images/nail-extension-9-2.jpg",
 
-  serviceList2Image1: "/images/gel-nails-shellac-nails-1.jpg",
-  serviceList2Image2: "/images/gel-nails-shellac-nails-2.jpg",
-  serviceList2Image3: "/images/gel-nails-shellac-nails-3.jpg",
-  serviceList2Image4: "/images/gel-nails-shellac-nails-4.jpg",
-  serviceList2Image5: "/images/gel-nails-shellac-nails-5.jpg",
+  serviceList2Image1: "/images/gel-nails-shellac-nails-1-2.jpg",
+  serviceList2Image2: "/images/gel-nails-shellac-nails-2-2.jpg",
+  serviceList2Image3: "/images/gel-nails-shellac-nails-3-2.jpg",
+  serviceList2Image4: "/images/gel-nails-shellac-nails-4-2.jpg",
+  serviceList2Image5: "/images/gel-nails-shellac-nails-5-2.jpg",
   
-  serviceList3Image1: "/images/pedicure-1.jpg",
-  serviceList3Image2: "/images/pedicure-2.jpg",
-  serviceList3Image3: "/images/pedicure-3.jpg",
-  serviceList3Image4: "/images/pedicure-4.jpg",
-  serviceList3Image5: "/images/pedicure-5.jpg",
+  serviceList3Image1: "/images/pedicure-1-2.jpg",
+  serviceList3Image2: "/images/pedicure-2-2.jpg",
+  serviceList3Image3: "/images/pedicure-3-2.jpg",
+  serviceList3Image4: "/images/pedicure-4-2.jpg",
+  serviceList3Image5: "/images/pedicure-5-2.jpg",
 
   serviceList4Image1: "/images/hair-wash-1.jpg",
   serviceList4Image2: "/images/hair-wash-2.jpg",
@@ -761,11 +764,11 @@ const images = {
   serviceList4Image4: "/images/hair-wash-4.jpg",
   serviceList4Image5: "/images/hair-wash-5.jpg",
 
-  serviceList5Image1: "/images/nail-design-1.jpg",
-  serviceList5Image2: "/images/nail-design-2.jpg",
-  serviceList5Image3: "/images/nail-design-3.jpg",
-  serviceList5Image4: "/images/nail-design-4.jpg",
-  serviceList5Image5: "/images/nail-design-5.jpg",
+  serviceList5Image1: "/images/nail-design-1-2.jpg",
+  serviceList5Image2: "/images/nail-design-2-2.jpg",
+  serviceList5Image3: "/images/nail-design-3-2.jpg",
+  serviceList5Image4: "/images/nail-design-4-2.jpg",
+  serviceList5Image5: "/images/nail-design-5-2.jpg",
 
   serviceList6Image1: "/images/waxing-1.jpg",
   serviceList6Image2: "/images/waxing-2.jpg",
@@ -781,26 +784,26 @@ const images = {
 
   //Ảnh trang about cho 3 giao diện
 
-  mobileAboutUsImage1: "/images/mobile-nail-salon-1.jpg",
-  mobileAboutUsImage2: "/images/mobile-nail-salon-2.jpg",
-  mobileAboutUsImage3: "/images/mobile-nail-salon-3.jpg",
+  mobileAboutUsImage1: "/images/mobile-nail-salon-1-2.jpg",
+  mobileAboutUsImage2: "/images/mobile-nail-salon-2-2.jpg",
+  mobileAboutUsImage3: "/images/mobile-nail-salon-3-2.jpg",
 
-  tabletAboutUsImage1: "/images/tablet-nail-salon-1.jpg",
-  tabletAboutUsImage2: "/images/tablet-nail-salon-2.jpg",
-  tabletAboutUsImage3: "/images/tablet-nail-salon-3.jpg",
+  tabletAboutUsImage1: "/images/tablet-nail-salon-1-2.jpg",
+  tabletAboutUsImage2: "/images/tablet-nail-salon-2-2.jpg",
+  tabletAboutUsImage3: "/images/tablet-nail-salon-3-2.jpg",
 
-  desktopAboutUsImage1: "/images/desktop-nail-salon-1.jpg",
-  desktopAboutUsImage2: "/images/desktop-nail-salon-2.jpg",
-  desktopAboutUsImage3: "/images/desktop-nail-salon-3.jpg",
+  desktopAboutUsImage1: "/images/desktop-nail-salon-1-2.jpg",
+  desktopAboutUsImage2: "/images/desktop-nail-salon-2-2.jpg",
+  desktopAboutUsImage3: "/images/desktop-nail-salon-3-2.jpg",
 
-  desktopAboutUsDongVienImage1: "/images/nail-extension-15.jpg",
-  desktopAboutUsDongVienImage2: "/images/nail-extension-16.jpg",
-  desktopAboutUsDongVienImage3: "/images/nail-extension-17.jpg",
+  desktopAboutUsDongVienImage1: "/images/nail-extension-15-2.jpg",
+  desktopAboutUsDongVienImage2: "/images/nail-extension-16-2.jpg",
+  desktopAboutUsDongVienImage3: "/images/nail-extension-17-2.jpg",
 
     //Ảnh cho phần động viên
-  section1Image1: "/images/nail-extension-18.jpg",
-  section2Image1: "/images/nail-extension-19.jpg",
-  section3Image1: "/images/nail-extension-20.jpg",
+  section1Image1: "/images/nail-extension-18-2.jpg",
+  section2Image1: "/images/nail-extension-19-2.jpg",
+  section3Image1: "/images/nail-extension-20-2.jpg",
 
   //Thanh Mobile Bottom Nav
   BottomNavButton1Icon: "/images/icons/icon-home.png",
@@ -816,11 +819,11 @@ const images = {
   BottomNavButton3LinkTo: "",
 
   //Ảnh customer review - customer-review.js
-  cusReviewImage1: "/images/nail-salon-customer-review-1-1.jpg",
-  cusReviewImage2: "/images/nail-salon-customer-review-2-1.jpg",
-  cusReviewImage3: "/images/nail-salon-customer-review-3-1.jpg",
-  cusReviewImage4: "/images/nail-salon-customer-review-4-1.jpg",
-  cusReviewImage5: "/images/nail-salon-customer-review-5-1.jpg",
+  cusReviewImage1: "/images/nail-salon-customer-review-1-2.jpg",
+  cusReviewImage2: "/images/nail-salon-customer-review-2-2.jpg",
+  cusReviewImage3: "/images/nail-salon-customer-review-3-2.jpg",
+  cusReviewImage4: "/images/nail-salon-customer-review-4-2.jpg",
+  cusReviewImage5: "/images/nail-salon-customer-review-5-2.jpg",
 
 
   //Ảnh Footer
