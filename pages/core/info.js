@@ -1228,6 +1228,17 @@ const images = {
     service80Price: "5",
     service80Description: "",
 
+    service81: "BIAB buider gel on natural nails",
+    service81Time: "60 mins",
+    service81Price: "30",
+    service81Description: "This service will leave your nails looking stunning and fabulous, making you feel confident and beautiful. The BIAB builder gel creates a long-lasting and durable finish for your nails, perfect for those who desire low maintenance and chip-free nails. Our skilled technicians will carefully apply the builder gel to create the look you desire, leaving you with salon-quality nails that will last for weeks. So, why not treat yourself and embrace the feeling of self-love by booking a BIAB Builder Gel Fullset today!",
+
+    service82: "BIAB take off and Redone (extra)",
+    service82Time: "60 mins",
+    service82Price: "5",
+    service82Description: "",
+
+
     };
   
   const serviceList2 = {
