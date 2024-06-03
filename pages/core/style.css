@@ -195,7 +195,7 @@
   /*.button-model-1 và .button-model-2 khác nhau về màu thôi
   */
   .button-model-1{
-    background-color: #23d1ff;
+    background-color: #ff800d;
     border-radius: 5px;
     color: #000000;
     text-align: center;
@@ -590,7 +590,7 @@
     }
     .top-bar-item-left,
     .top-bar-item-right{
-      background-color: #23d1ff;
+      background-color: #ff800d;
       border: none;
       color: #000000;
       font-weight: 500;
@@ -728,7 +728,7 @@
     /*nhan-manh-2.js
     */
     .nhan-manh-2-background{
-      background-color: #dcf5ff;
+      background-color: #ffb38a;
       padding-top: 10px;
       padding-bottom: 15px;
       padding-left: 20px;
