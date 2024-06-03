@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "topnailsexeter",
+    "site": "uk-nails",
     "public": "out",
     "ignore": [
       "firebase.json",
