@@ -95,10 +95,10 @@ const processedBusinessOpeningTime = {
 }
 
 const changedInfo = {   
-  businessName: "UK Nails",
+  businessName: "UK Nails In Poole",
   businessAddressLevel1: "96 High St",
   businessAddressLevel2: "Poole",
-  businessAddressLevel3: "Devon",
+  businessAddressLevel3: "Dorset",
   businessAddressLevel4: "England",
   businessCountry: "United Kingdom",
   businessGeoRegionCode: "GB",
