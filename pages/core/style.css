@@ -59,7 +59,7 @@
 */
   /*Chống copy nội dung trang, tải ảnh....
   */
-    
+
   html{
     -youbkit-touch-callout: none; 
     -youbkit-user-select: none;   
@@ -67,6 +67,8 @@
     -ms-user-select: none;      
     user-select: none;   
   }
+    
+  
     
   /*
   */
@@ -195,7 +197,7 @@
   /*.button-model-1 và .button-model-2 khác nhau về màu thôi
   */
   .button-model-1{
-    background-color: #ff800d;
+    background-color: #ff6700;
     border-radius: 5px;
     color: #000000;
     text-align: center;
@@ -590,7 +592,7 @@
     }
     .top-bar-item-left,
     .top-bar-item-right{
-      background-color: #ff800d;
+      background-color: #ff6700;
       border: none;
       color: #000000;
       font-weight: 500;
