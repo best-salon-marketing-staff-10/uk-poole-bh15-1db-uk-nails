@@ -1540,7 +1540,7 @@ const images = {
 
     service32: "French Manicure",
     service32Time: "30 mins",
-    service32Price: "21",
+    service32Price: "31",
     service32Description: "",
 
     service33: "Manicure & Pedicure",
