@@ -37,7 +37,6 @@ export default function MobileContent(){
                         </Carousel.Item>
                     </Carousel> 
                 </div>
-
                 <div className="mobile-about-us-our-story">
                     <OurStory />
                 </div>
@@ -58,7 +57,6 @@ export default function MobileContent(){
                         <TimeSchedule />
                     </div>
                 </div>
-                
             </div>
         </>
     )
